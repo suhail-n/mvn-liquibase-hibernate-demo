@@ -1,0 +1,15 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1705614041282-1
+      author: suhailnooristani (generated)
+      changes:
+        - addColumn:
+            columns:
+              - column:
+                  name: breed
+                  type: varchar(20)
+            tableName: cats
+      rollback:
+        - dropColumn:
+            columnName: breed
+            tableName: cats

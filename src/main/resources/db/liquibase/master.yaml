@@ -1,0 +1,9 @@
+databaseChangeLog:
+  - include:
+      # file: db/liquibase/changelog/2024_01_14T07_38_14Z_changelog.xml
+      # file: db/liquibase/changelog/2024_01_18T15_55_34Z_changelog.yaml
+      file: db/liquibase/changelog/2024_01_18T21_36_05Z_changelog.yaml
+  - include:
+      # file: db/liquibase/changelog/2024_01_14T07_38_14Z_changelog.xml
+      # file: db/liquibase/changelog/2024_01_18T15_55_34Z_changelog.yaml
+      file: db/liquibase/changelog/2024_01_18T21_40_37Z_changelog.yaml

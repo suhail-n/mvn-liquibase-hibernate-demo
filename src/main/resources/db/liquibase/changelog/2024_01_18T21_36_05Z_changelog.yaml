@@ -1,0 +1,39 @@
+databaseChangeLog:
+- changeSet:
+    id: 1705613768793-1
+    author: suhailnooristani (generated)
+    changes:
+    - createSequence:
+        incrementBy: 50
+        sequenceName: cats_SEQ
+        startValue: 1
+- changeSet:
+    id: 1705613768793-2
+    author: suhailnooristani (generated)
+    changes:
+    - createTable:
+        columns:
+        - column:
+            autoIncrement: true
+            constraints:
+              nullable: false
+              primaryKey: true
+              primaryKeyName: catsPK
+            name: id
+            type: BIGINT
+        - column:
+            name: name
+            type: VARCHAR(255)
+        - column:
+            name: uuid
+            type: UUID
+        tableName: cats
+- changeSet:
+    id: 1705613768793-3
+    author: suhailnooristani (generated)
+    changes:
+    - addUniqueConstraint:
+        columnNames: name
+        constraintName: UC_CATSNAME_COL
+        tableName: cats
+
