@@ -20,6 +20,7 @@
 		<maven.build.timestamp.format>yyyy_MM_dd'T'HH_mm_ss'Z'</maven.build.timestamp.format>
 	</properties>
 	<dependencies>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>

@@ -1,14 +1,6 @@
 databaseChangeLog:
 - changeSet:
-    id: 1705613768793-1
-    author: suhailnooristani (generated)
-    changes:
-    - createSequence:
-        incrementBy: 50
-        sequenceName: cats_SEQ
-        startValue: 1
-- changeSet:
-    id: 1705613768793-2
+    id: 1705675712565-1
     author: suhailnooristani (generated)
     changes:
     - createTable:
@@ -29,7 +21,7 @@ databaseChangeLog:
             type: UUID
         tableName: cats
 - changeSet:
-    id: 1705613768793-3
+    id: 1705675712565-2
     author: suhailnooristani (generated)
     changes:
     - addUniqueConstraint:

@@ -1,0 +1,12 @@
+databaseChangeLog:
+- changeSet:
+    id: 1705675829007-1
+    author: suhailnooristani (generated)
+    changes:
+    - addColumn:
+        columns:
+        - column:
+            name: age
+            type: integer
+        tableName: cats
+

@@ -25,8 +25,10 @@ public class CatEntity {
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID uuid;
 
-    // @Column(length = 20)
-    // private String breed;
+    @Column
+    private int age;
+    @Column(length = 20)
+    private String breed;
 
     // @Column(length = 20)
     // private String color;
